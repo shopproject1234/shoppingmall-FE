@@ -1,0 +1,15 @@
+.InterestButton{
+    width: 120px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+.InterestButton_on{
+    background-color: #760C0C; /* 선택된 버튼 색상 */
+    color: #ffffff;
+}

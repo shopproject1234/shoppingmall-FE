@@ -1,0 +1,15 @@
+.interest-box{
+    width: 400px;
+    height: 350px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2열 설정 */
+}
+
+.InterestButton{
+    margin-top: 15px;
+}
