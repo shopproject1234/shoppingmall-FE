@@ -1,0 +1,31 @@
+.Item{
+    width: 200px;
+    height: 250px;
+    border: 1px solid #000;
+}
+
+.img_section{
+    width: 140px;
+    height: 140px;
+    border: 1px solid #000;
+
+    margin-top: 10px;
+}
+
+.title_section{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+
+    margin-top: 10px;
+}
+
+.price_section{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+
+    margin-top: 10px;
+}
