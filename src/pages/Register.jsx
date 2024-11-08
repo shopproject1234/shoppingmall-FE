@@ -65,8 +65,8 @@ const Register = () => {
       console.error(error);
     }
   }
-
   async function fetchRegister() {
+  
     try {
       //응답 성공
       const response = await axios.post("http://3.35.4.8:8080/user/register", {
@@ -76,7 +76,7 @@ const Register = () => {
         phoneNumber: form["phoneNumber"],
         email: form["email"],
         birth: form["date"],
-        gender: form["userSex"],
+        gender: form["gender"],
         category: selectedInterests
       });
       console.log(response);
@@ -156,12 +156,12 @@ const Register = () => {
           </label>
           <div className="gender">
             <div className="form_radio_btn radio_female">
-              <input onChange={handleGenderChange} id="radio-1" type="radio" name="userSex" value="female" />
+              <input onChange={handleGenderChange} id="radio-1" type="radio" name="gender" value="FEMALE" />
               <label htmlFor="radio-1">여성</label>
             </div>
 
             <div className="form_radio_btn">
-              <input onChange={handleGenderChange} id="radio-2" type="radio" name="userSex" value="male" />
+              <input onChange={handleGenderChange} id="radio-2" type="radio" name="gender" value="MALE" />
               <label htmlFor="radio-2">남성</label>
             </div>
           </div>
@@ -171,8 +171,8 @@ const Register = () => {
 
         <div className="interest">
           <h3>관심사</h3>
-          <span>회원님의 관심사를 선택해 주세요! (필수)</span>
-          <InterestBox selectedInterests={selectedInterests} setSelectedInterests={setSelectedInterests} setForm={setForm} name={"catecory"} />
+          <span>회원님의 관심사를 선택해 주세요!</span>
+          <InterestBox selectedInterests={selectedInterests} setSelectedInterests={setSelectedInterests} setForm={setForm} name={"category"} />
         </div>
 
         <div className="btn">
