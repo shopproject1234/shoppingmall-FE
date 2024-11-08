@@ -1,0 +1,75 @@
+.MyUpload{
+    position: relative;
+
+    width: 600px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+}
+
+.MyUpload-image{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    width: 160px;
+    height: 160px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+}
+
+.MyUpload-name{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+
+    font-weight: bold;
+}
+
+.MyUpload-catagory{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+
+    color: #606060;
+}
+
+.MyUpload-date{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.MyUpload-count{
+    position: absolute;
+    bottom: 60px;
+    left: 200px;
+
+    font-size: 14px;
+}
+
+.MyUpload-price{
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+
+    font-weight: bold;
+}
+
+.MyUpload-btn{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.MyUpload-btn button{
+    width: 80px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-size: 16px;
+}

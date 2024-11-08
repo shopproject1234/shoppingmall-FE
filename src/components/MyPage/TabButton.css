@@ -1,0 +1,14 @@
+.TabButton button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: #606060;
+
+    cursor: pointer;
+}
+
+.TabButton_on button{
+    color: #000;
+    border-bottom: 3px solid #760C0C;
+}

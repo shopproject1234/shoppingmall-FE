@@ -1,0 +1,77 @@
+.MyInfoPage{
+    position: relative;
+}
+
+.MyInfo-interest{
+    position: absolute;
+
+    width: 500px;
+    height: 450px;
+    border-right: 2px solid #e2e2e2;
+    top: 10px;
+}
+
+.MyInfo-interest-name{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.MyInfo{
+    position: absolute;
+    top: 20px;
+    left: 700px;
+
+    width: 450px;
+    height: 450px;
+}
+
+.MyInfo-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.MyInfo-box{
+    width: 450px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+
+    margin-top: 20px;
+}
+
+.MyInfo-nickName{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.MyInfo-password{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.MyInfo-verifyPassword{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.MyInfo-btn{
+    position: absolute;
+    margin-top: 15px;
+    right: 0px;
+
+}
+
+.MyInfo-btn button{
+    width: 120px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-size: 18px;
+}
