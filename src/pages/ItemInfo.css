@@ -1,0 +1,101 @@
+.ItemInfo{
+    position: relative;
+
+    width: 100%;
+    height: 80vh;
+    background-color: #FAFAFA;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.ItemInfo .title{
+    position: absolute;
+    width: 180px;
+    height: 40px;
+
+    top: 5%;
+    left: 5%;
+
+    display: flex;
+}
+
+.ItemInfo .icon{
+    width: 35px;
+    height: 35px;
+}
+
+.InfoImage{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+
+    width: 500px;
+    height: 500px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+}
+
+.ItemInfo section{
+    position: absolute;
+    top: 15%;
+    left: 37%;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+.ItemInfo section > div > div{
+    padding-bottom: 10px;
+}
+
+.InfoCategory{
+    margin-top: 30px;
+}
+
+.InfoContent{
+    margin-top: 30px;
+}
+.InfoContent textarea{
+    width: 600px;
+    height: 150px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+}
+
+.InfoCount{
+    margin-top: 30px;
+}
+.InfoCount .ItemCount{
+    margin-left: 0px;
+}
+
+.Info-button{
+    position: absolute;
+    right: 3%;
+    bottom: 4%;
+}
+
+.InfoPrice{
+    position: absolute;
+    bottom: 12%;
+    right: 3%;
+
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.Info-button button{
+    width: 195px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Info-button button:nth-of-type(2){
+    margin-left: 10px;
+    background-color: #760C0C;
+    color: #ffffff;
+}

@@ -1,0 +1,49 @@
+.ReviewForm{
+    position: relative;
+
+    width: 1000px;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+}
+
+.ReviewForm-name{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+
+    font-weight: bold;
+}
+
+.ReviewForm-score{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+    font-weight: bold;
+}
+
+.ReviewForm-date{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+
+    color: #595959;
+}
+
+.ReviewForm-content{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+
+    font-weight: bold;
+}
+.ReviewForm-content textarea{
+    width: 900px;
+    height: 150px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+
+    margin-top: 10px;
+}
