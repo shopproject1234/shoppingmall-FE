@@ -3,8 +3,7 @@ import Header from "../components/common/Header";
 import Input from "../components/common/Input";
 import "./LogIn.css";
 import { useState } from "react";
-import axios from "axios";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { fetchLogin } from "../service/api";
 import { login } from '../redux/user';
 
@@ -42,7 +41,7 @@ const LogIn = () => {
                         <Input form={form} setForm={setForm} name={"password"} type="password" label={"비밀번호"} placeholder={"비밀번호를 입력하세요."} />
                     </div>
                     <div className="button-login">
-                        <button onClick={() => doLogin()}>로그인</button>
+                        <button onClick={() => {doLogin(), nav("/")}}>로그인</button>
                     </div>
                     <div className="button-register">
                         <button onClick={()=>{nav("/Register")}}>회원가입</button>
