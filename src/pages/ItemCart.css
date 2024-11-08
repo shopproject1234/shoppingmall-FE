@@ -1,0 +1,129 @@
+.ItemCart{
+    position: relative;
+
+    width: 100%;
+    height: 80vh;
+    background-color: #FAFAFA;
+}
+
+.ItemCart .title{
+    position: absolute;
+    width: 180px;
+    height: 40px;
+
+    top: 5%;
+    left: 5%;
+
+    display: flex;
+}
+
+.ItemCart .title{
+    position: absolute;
+    width: 180px;
+    height: 40px;
+
+    top: 5%;
+    left: 5%;
+
+    display: flex;
+}
+
+.ItemCart .icon{
+    width: 35px;
+    height: 35px;
+}
+
+.itemcartlist{
+    position: absolute;
+    width: 900px;
+    height: 650px;
+    border: 1px solid red;
+
+    top: 10vh;
+    left: 5%;
+}
+
+.control{
+    position: absolute;
+    top: 10vh;
+    right: 7%;
+
+    width: 350px;
+    height: 400px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(100, 100, 100, 0.2);
+}
+
+.control-title{
+    width: 180px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.control-list{
+    width: 300px;
+    height: 230px;
+    margin-top: 10px;
+}
+
+.total-price{
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.total-price span{
+    margin-left: 100px;
+}
+.sale-price{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.sale-price span{
+    margin-left: 170px;
+}
+.deliver-price{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.deliver-price span{
+    margin-left: 130px;
+}
+.pay-price{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.pay-price span{
+    margin-left: 120px;
+}
+
+.control-btn button{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 75px;
+    border: none;
+    border-radius: 8px;
+    background-color: #760C0C;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}

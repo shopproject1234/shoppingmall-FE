@@ -1,0 +1,77 @@
+.ItemCartList{
+    position: relative;
+    width: 750px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.ItemCartList input{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+
+    margin-top: 85px;
+    margin-left: 30px;
+}
+
+.ItemCartList .itemImage{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+
+    margin-top: 35px;
+    margin-left: 90px;
+}
+
+.ItemCartList .itemName{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+
+    top: 40px;
+    left: 240px;
+
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ItemCartList .itemPrice{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+
+    top: 80px;
+    left: 240px;
+
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.ItemCartList .ItemCount{
+    position: absolute;
+    top: 120px;
+    left: 240px;
+}
+
+.ItemCartList button{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+
+    width: 80px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
