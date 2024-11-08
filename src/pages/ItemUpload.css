@@ -22,8 +22,113 @@
     height: 35px;
 }
 
+.upload-image{
+    position: absolute;
+    top: 12%;
+    left: 5%;
+
+    display: flex;
+    gap: 10px;
+}
+
 .ItemUploading .itemName{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+.itemCount{
     position: absolute;
     top: 40%;
     left: 5%;
+}
+
+.itemCount-title{
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+.itemPrice{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.price-title{
+    font-weight: bold;
+    padding: 5px;
+}
+.itemPrice input{
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.itemcatecory{
+    position: absolute;
+    top: 59%;
+    left: 5%;
+}
+
+.category-title{
+    font-weight: bold;
+    padding: 5px;
+}
+
+.itemcatecory select{
+    width: 120px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.itemExplain{
+    position: absolute;
+    top: 68%;
+    left: 5%;
+}
+.itemExplain-title{
+    font-weight: bold;
+    padding: 5px;
+}
+.itemExplain textarea{
+    width: 600px;
+    height: 150px;
+    max-width: 600px;
+    max-height: 150px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+
+    padding: 5px;
+}
+
+.upload-button{
+    position: absolute;
+    right: 3%;
+    bottom: 4%;
+}
+
+.upload-button button{
+    width: 195px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upload-button button:nth-of-type(2){
+    margin-left: 10px;
+    background-color: #760C0C;
+    color: #ffffff;
 }
