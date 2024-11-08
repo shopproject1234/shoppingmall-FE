@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./interestBox.css";
 import InterestButton from "./InterestButton";
 

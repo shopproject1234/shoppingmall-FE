@@ -1,0 +1,30 @@
+.uploadImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+}
+
+.uploadImg:hover{
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
+
+.uploadImg .icon{
+    width: 25px;
+    height: 25px;
+}
+
+#itemImg{
+    display: none;
+}
+
+.icon{
+    width: 5px;
+    height: 5px;
+}
+
