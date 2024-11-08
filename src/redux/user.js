@@ -25,6 +25,7 @@ export const userSlice = createSlice({
       console.log('spread : ', { ..._old, ..._new });
       state.userInfo = { ..._old, ..._new };
     },
+    
   },
 });
 

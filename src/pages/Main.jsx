@@ -1,6 +1,8 @@
 import "./Main.css";
 import MainHeader from "../components/common/MainHeader";
+
 import { useEffect, useState } from "react";
+import ItemList from "../components/MainPage/itemList";
 
 const Main = () => {
     const [dropdownValue, setDropdownValue] = useState();
@@ -15,18 +17,7 @@ const Main = () => {
             <div className="MainImage">
                 <img src={"/MainImage.png"} />
             </div>
-            <div className="itemlist">
-                <select name="category" >
-                    <option>최신순</option>
-                    <option>추천순</option>
-                    <option>리뷰순</option>
-                    <option>리뷰많은순</option>
-                </select>
-                
-                <div className="itemlistbox">
-
-                </div>
-            </div>
+            <ItemList />
         </div>
     )
 }

@@ -1,20 +1,16 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 import LogIn from "./pages/LogIn";
 import Main from "./pages/Main";
 import Register from "./pages/Register";
-import MyPage from './pages/myPage';
-import ItemUpload from './pages/ItemUpload';
-import ItemInfo from './pages/itemInfo';
-import ItemUpdate from './pages/itemUpdate';
-import ItemDelete from './pages/itemDelete';
-import ItemCart from './pages/itemCart';
-import ItemReview from './pages/itemReview';
-
-
+import MyPage from "./pages/myPage";
+import ItemUpload from "./pages/ItemUpload";
+import ItemInfo from "./pages/itemInfo";
+import ItemUpdate from "./pages/itemUpdate";
+import ItemDelete from "./pages/itemDelete";
+import ItemCart from "./pages/ItemCart";
+import ItemReview from "./pages/itemReview";
 
 function App() {
-
-
   return (
     <>
       <Routes>
@@ -30,7 +26,7 @@ function App() {
         <Route path="/ItemReview" element={<ItemReview />} />
       </Routes>
     </>
-  )
+  );
 }
 
 export default App;

@@ -22,7 +22,7 @@ const MainHeader = () => {
                     </>
                 ) : (
                     <>
-                        <div>반갑습니다 {userInfo.nickname}님</div>
+                        <div className="login-name">반갑습니다. {userInfo.nickname}님</div>
                     </>
                 )}
                
