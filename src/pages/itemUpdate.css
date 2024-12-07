@@ -1,0 +1,134 @@
+.ItemUpdating{
+    position: relative;
+
+    width: 100%;
+    height: 80vh;
+    background-color: #FAFAFA;
+}
+
+.ItemUpdating .title{
+    position: absolute;
+    width: 180px;
+    height: 40px;
+
+    top: 5%;
+    left: 5%;
+
+    display: flex;
+}
+
+.ItemUpdating .title .icon{
+    width: 35px;
+    height: 35px;
+}
+
+.update-image{
+    position: absolute;
+    top: 12%;
+    left: 5%;
+
+    display: flex;
+    gap: 10px;
+}
+
+.ItemUpdating .itemName{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+.itemCount{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.itemCount-title{
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+.itemPrice{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.price-title{
+    font-weight: bold;
+    padding: 5px;
+}
+.itemPrice input{
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.itemcatecory{
+    position: absolute;
+    top: 59%;
+    left: 5%;
+}
+
+.category-title{
+    font-weight: bold;
+    padding: 5px;
+}
+
+.itemcatecory select{
+    width: 120px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.itemExplain{
+    position: absolute;
+    top: 68%;
+    left: 5%;
+}
+.itemExplain-title{
+    font-weight: bold;
+    padding: 5px;
+}
+.itemExplain textarea{
+    width: 600px;
+    height: 150px;
+    max-width: 600px;
+    max-height: 150px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    padding: 5px;
+    resize: none;
+}
+
+.update-button{
+    position: absolute;
+    right: 3%;
+    bottom: 4%;
+}
+
+.update-button button{
+    width: 195px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.update-button button:nth-of-type(2){
+    margin-left: 10px;
+    background-color: #760C0C;
+    color: #ffffff;
+}
